@@ -611,15 +611,16 @@ We also documented and solved several hardware problems during development, incl
 # Repository Structure
 
 ```text
-WRO-2026-Future-Engineers/
+WRO-2026-Future-Engineers-Superiores/
 ├── README.md
-├── src/
-│   ├── open_challenge/
-│   └── obstacle_challenge/
-├── schemes/
+├── LICENSE
+├── evidences/
 ├── models/
-├── v-photos/
-└── t-photos/
+├── others/
+├── prototype/
+├── schemes/
+├── team photos/
+└── vehicle photos/
 ```
 
 The repository includes the full Arduino code, wiring diagrams, PCB schematics, STL files, and robot photos so the entire project can be reproduced and improved in the future.
