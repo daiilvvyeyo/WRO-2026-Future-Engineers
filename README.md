@@ -120,6 +120,26 @@ The final steering configuration consists of:
 </tr>
 </table>
 
+## Robot Components
+
+| Component | Quantity | Main Function |
+|---|:---:|---|
+| ESP32 Microcontroller | 1 | Main processing / communication with OpenMV and sensors |
+| Arduino Nano Microcontroller | 1 | Additional control (motor, encoders, ultrasonic sensors) |
+| OpenMV Camera | 1 | Color vision, RX/TX communication (UART) |
+| BNO085 IMU | 1 | Orientation / yaw (I2C: SCL, SDA) |
+| HC-SR04 Ultrasonic Sensor | 5 | Distance measurement (front, 2 left, 2 right) |
+| TB6612FNG Motor Driver | 1 | H-bridge for controlling the DC motor (PWMA, AIN1, AIN2, STBY) |
+| DC Motor with Encoder | 1 | Traction (uses ENC_A and ENC_B for speed feedback) |
+| 4-Channel Logic Level Converter | 1 | Adapts 3.3V ↔ 5V signals between modules (HV/LV x4) |
+| Steering Servo | 1 | Steering control (S1 signal, SER_5+ power supply) |
+| NeoPixel LEDs (WS2812) | 1 strip | Indicator lighting / vision assistance |
+| 18650 Battery | Several | Main power supply (power bank) |
+| Mini-560 Buck Converter | 2 | Voltage regulation (one line to 5V, another to 3.3V) |
+| 7805 Voltage Regulator | 2 | One for the servo (SER_5+), another for the LEDs (LEDS_5+) |
+| Digital Voltmeter | 1 | Battery voltage monitoring |
+| Main Switch | 1 | Motor / system power cutoff |
+| 2P Terminal Block | 1 | Power input (7.4V+) |
 
 
 # LEGO Set Use
