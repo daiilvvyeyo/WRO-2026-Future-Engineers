@@ -255,7 +255,7 @@ One of the most important decisions was replacing the HuskyLens camera with the 
 
 | PCB Design | PCB Schematic | Real PCB |
 |:--:|:--:|:--:|
-| <img width="300" height="300" src="schemes/PCB.png" /> | <img width="300" height="300" src="schemes/PCB_Schematic.png" /> | <img width="300" height="300" src="schemes/PCB_Real.jpeg" /> |
+| <img width="300" height="300" src="schemes/PCB.png" /> | <img width="300" height="300" src="schemes/PCB_Schematic.png" /> | <img width="300" height="300" src="schemes/PCB_Real.png" /> |
 
 
 ## Source Code
